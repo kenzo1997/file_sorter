@@ -8,13 +8,6 @@
 <p align="center">
   <strong>A smart, configurable, and extensible file-organizer for your life.</strong>
 </p>
-
-<p align="center">
-  <a href="https://github.com/yourusername/file-sorter/actions"><img src="https://img.shields.io/github/actions/workflow/status/yourusername/file-sorter/ci.yml" alt="CI Status"/></a>
-  <a href="https://pypi.org/project/filesorter"><img src="https://img.shields.io/pypi/v/filesorter" alt="PyPI Version"/></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"/></a>
-</p>
-
 ---
 
 > "Automate your chaos. Sort your life." 🙌
@@ -71,7 +64,7 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/file-sorter.git
+git clone https://github.com/kenzo1997/file-sorter.git
 cd file-sorter
 pip install -r requirements.txt
 ```
