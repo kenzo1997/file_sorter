@@ -1,0 +1,120 @@
+{
+	"download_path": "/home/kenzo/Downloads/",
+    "mappings": [
+        {
+            "include": ["prj_*"],
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/Pictures"
+                }
+            ]
+        },
+        {
+
+            "include": ["png", "jpeg", "jpg" ],
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/Pictures",
+                    "subfolders": "bloo-{YYYY}-{MM}"
+                }
+            ]
+        },
+        {
+          "include": [ "mp3" ],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/Music"
+                }
+            ]
+
+        },
+        {
+          "include": [ "sf2", "sf3", "sfz" ],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/Downloads/soundfonts"
+                }
+            ]
+        },
+        {
+          "include": [ "dll" ],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/lmms/plugins/vst"
+                }
+            ]
+        },
+        {
+          "include": ["mmpz", "bak", "mmpz.bak"],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/lmms/projects"
+                }
+            ]
+        },
+        {
+          "include": [ "vm_*.iso" ],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/VMs"
+                }
+            ]
+        },
+        {
+          "include": [ "md" ],
+          "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/Obsidian_Vault"
+                }
+            ]
+        },
+        {
+            "include": [ "blend_lp_*" ],
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/blenderTuts/lowpoly"
+                }
+            ]
+        },
+        {
+            "include": [ "blend_tut*" ],
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/blenderTuts/EXERCISES"
+                }
+            ]
+        },
+        {
+            "include": [ "prj_*" ],
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/projects"
+                }
+            ]
+        },
+        {
+            "include": ["pdf"],
+            "analysis": true,
+            "destinations": [
+                {
+                    "type": "local",
+                    "path": "/home/kenzo/DOcuments/"
+                }
+            ]
+        }
+
+    ],
+ 
+    "default_out": "/home/kenzo/Documents/default"
+}
