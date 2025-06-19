@@ -8,6 +8,7 @@
 <p align="center">
   <strong>A smart, configurable, and extensible file-organizer for your life.</strong>
 </p>
+
 ---
 
 > "Automate your chaos. Sort your life." 🙌
